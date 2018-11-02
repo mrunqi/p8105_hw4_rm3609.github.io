@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Flexdashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -37,13 +37,11 @@ aver_max_temp =
   summarize(aver_maxt = mean(tmax,na.rm = TRUE)) %>% 
   ggplot(aes(x = year, y = aver_maxt)) +
   geom_boxplot() +
-  facet_grid(~month) +
    labs(
     title = "Average Max Temperature in January",
     x = "Year",
     y = "Average Max Temperatur"
   ) + 
-  theme_bw() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 ggplotly(aver_max_temp)

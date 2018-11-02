@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 ---
-#Ma Runqi
+##Ma Runqi
 
 ###EDUCATION
 Taipei Medical University (TMU), Taipei, Taiwan                                 
@@ -20,11 +20,10 @@ Intern at Hangzhou Disease Prevention and Control Center  (Aug. 2017)
 * Assisted in public health risk assessments 
 
 
+
 Intern at Xinyi District Health Center	(Jul. 2017)
 
 * Helped conduct child screening and national health inspections; entered screening data
-* Surveyed the development of children in disadvantaged homes through the use of children’s developmental progress forms 
- Directed attention to cases of possible late development
-* Contacted the public to take part in colorectal cancer screenings 
-o	Kept records so public health practitioners can deliver screening kits
+* Surveyed the development of children in disadvantaged homes through the use of children’s developmental progress forms. Directed attention to cases of possible late development
+* Contacted the public to take part in colorectal cancer screenings. Kept records so public health practitioners can deliver screening kits
 * Conducted panel discussions on children with vision problems and used the health center’s data for analysis (Panel: “Correlation Between Visions of 4 to 6-Year-Old Children Based on Kindergarten Attendance”)
