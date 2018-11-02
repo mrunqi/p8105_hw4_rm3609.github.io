@@ -1,4 +1,84 @@
 ---
-title: "Flexdashboard"
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+noaa = ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  mutate(
+    tmax = as.numeric(tmax)/10, 
+    tmin = as.numeric(tmin)/10, 
+    prcp = as.numeric(prcp)/10, 
+    snow = as.numeric(snow)/10,
+    snwd = as.numeric(snwd)/10)
+  
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+aver_max_temp = 
+  noaa %>% 
+  filter(month == "01" & is.na(tmax) == FALSE) %>% 
+  group_by(month, id, year) %>% 
+  summarize(aver_maxt = mean(tmax,na.rm = TRUE)) %>% 
+  ggplot(aes(x = year, y = aver_maxt)) +
+  geom_boxplot() +
+  facet_grid(~month) +
+   labs(
+    title = "Average Max Temperature in January",
+    x = "Year",
+    y = "Average Max Temperatur"
+  ) + 
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplotly(aver_max_temp)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+dist_snow = 
+  noaa %>% 
+  filter(snow > 0 & snow < 10) %>% 
+  ggplot(aes(x = year, y = snow)) +
+  geom_violin() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplotly(dist_snow)
+```
+
+### Chart C
+
+```{r}
+hex_temp = 
+  noaa %>% 
+  filter(is.na(tmax) == FALSE,  is.na(tmin) == FALSE) %>% 
+  ggplot(aes(x = tmin, y = tmax)) +
+  geom_hex() +
+  labs(
+      title = "Maximum vs Minimum Temperature",
+      x = "Minimum Temperature",
+      y = "Maximum Temperature"
+  )
+
+ggplotly(hex_temp)
+```
 
