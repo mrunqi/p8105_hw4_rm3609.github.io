@@ -1,21 +1,22 @@
 ---
 title: "Resume"
 ---
-Ma Runqi
+#Ma Runqi
 
-EDUCATION
+###EDUCATION
 Taipei Medical University (TMU), Taipei, Taiwan                                     Sept. 2014 – 2018
 B.S in Public Health 
 
-WORK EXPERIENCE     		
-1. Intern at Hangzhou Disease Prevention and Control Center                  		         Aug. 2017
+###WORK EXPERIENCE
+
+* Intern at Hangzhou Disease Prevention and Control Center                  		         Aug. 2017
 	Prepared and sent chronic disease test reports, cause of death test reports, flu reports, etc.
 	Audited quality of chronic disease report cards of Hangzhou medical institutions
 	Organized pharmacy monitoring data and English documents
 	Assisted in public health risk assessments 
 
 
-2. Intern at Xinyi District Health Center	              Jul. 2017
+* Intern at Xinyi District Health Center	              Jul. 2017
 	Helped conduct child screening and national health inspections; entered screening data
 	Surveyed the development of children in disadvantaged homes through the use of children’s developmental progress forms 
 o	Directed attention to cases of possible late development
