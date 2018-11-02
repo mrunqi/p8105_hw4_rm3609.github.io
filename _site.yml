@@ -10,6 +10,6 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<rm3609@cumc.columbia.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/mrunqi/p8105_hw4_rm3609.github.io
 output:
   html_document

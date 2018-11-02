@@ -1,7 +1,7 @@
 ---
-title: "Holy cow!"
+title: "Homework 4"
 ---
 
-### I have a webpage!
+### This is a brief introductory landing page!
 
 And I can put all kinds of stuff on it!

@@ -1,9 +1,24 @@
 ---
-title: "About"
+title: "Resume"
 ---
+Ma Runqi
 
-### About this site
+EDUCATION
+Taipei Medical University (TMU), Taipei, Taiwan                                     Sept. 2014 – 2018
+B.S in Public Health 
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+WORK EXPERIENCE     		
+1. Intern at Hangzhou Disease Prevention and Control Center                  		         Aug. 2017
+	Prepared and sent chronic disease test reports, cause of death test reports, flu reports, etc.
+	Audited quality of chronic disease report cards of Hangzhou medical institutions
+	Organized pharmacy monitoring data and English documents
+	Assisted in public health risk assessments 
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+
+2. Intern at Xinyi District Health Center	              Jul. 2017
+	Helped conduct child screening and national health inspections; entered screening data
+	Surveyed the development of children in disadvantaged homes through the use of children’s developmental progress forms 
+o	Directed attention to cases of possible late development
+	Contacted the public to take part in colorectal cancer screenings 
+o	Kept records so public health practitioners can deliver screening kits
+	Conducted panel discussions on children with vision problems and used the health center’s data for analysis (Panel: “Correlation Between Visions of 4 to 6-Year-Old Children Based on Kindergarten Attendance”)
